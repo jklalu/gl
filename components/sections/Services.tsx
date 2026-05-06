@@ -65,7 +65,7 @@ export function Services() {
                 <ul className="space-y-2 text-left text-gray-600">
                   {service.items.map((item) => (
                     <li key={item} className="flex items-start gap-2">
-                      <span className="mt-1 text-blue-600">•</span>
+                      <span className="text-blue-600">•</span>
                       <span>{item}</span>
                     </li>
                   ))}
